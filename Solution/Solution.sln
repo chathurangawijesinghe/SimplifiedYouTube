@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 APIs", "02 APIs", "{D3E8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Facades", "03 Facades", "{A308D643-D218-4F98-A0D7-0C8B37775ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Clients.ReactApp", "01 Clients\Capgemini.SimplifiedYouTube.Clients.ReactApp\Capgemini.SimplifiedYouTube.Clients.ReactApp.csproj", "{6EADB1F3-55B8-459C-851C-981F0DED7E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Clients.ReactApp", "01 Clients\Capgemini.SimplifiedYouTube.Clients.ReactApp\Capgemini.SimplifiedYouTube.Clients.ReactApp.csproj", "{6EADB1F3-55B8-459C-851C-981F0DED7E2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 gRPCServices", "04 gRPCServices", "{CDFA90BD-DBD3-41FB-8377-82BB51E9BAC1}"
 EndProject
@@ -25,53 +25,57 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 Databases", "09 Database
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Common", "10 Common", "{98B6EAE5-6954-4526-BEBB-FCEF47889035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.APIs.Videos", "02 APIs\Capgemini.SimplifiedYouTube.APIs.Videos\Capgemini.SimplifiedYouTube.APIs.Videos.csproj", "{6BE0AE15-70C1-4A78-90C2-3739E389E33A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.APIs.Videos", "02 APIs\Capgemini.SimplifiedYouTube.APIs.Videos\Capgemini.SimplifiedYouTube.APIs.Videos.csproj", "{6BE0AE15-70C1-4A78-90C2-3739E389E33A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.APIs.IdentityServer4", "02 APIs\Capgemini.SimplifiedYouTube.APIs.IdentityServer4\Capgemini.SimplifiedYouTube.APIs.IdentityServer4.csproj", "{0EA20340-DDBF-402B-B1B1-CAF5B014AA09}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Facades.Videos", "03 Facades\Capgemini.SimplifiedYouTube.Facades.Videos\Capgemini.SimplifiedYouTube.Facades.Videos.csproj", "{A9F8A0FF-FBE3-448E-B823-960B6BAFE3E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Facades.IVideos", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IVideos\Capgemini.SimplifiedYouTube.Facades.IVideos.csproj", "{1D8F535A-A950-4BDF-A012-BCEC7AED5ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Facades.IVideos", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IVideos\Capgemini.SimplifiedYouTube.Facades.IVideos.csproj", "{1D8F535A-A950-4BDF-A012-BCEC7AED5ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Facades.IdentityServer4", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IdentityServer4\Capgemini.SimplifiedYouTube.Facades.IdentityServer4.csproj", "{398C2F37-EB14-45CE-B910-BBAEE165F64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Facades.IdentityServer4", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IdentityServer4\Capgemini.SimplifiedYouTube.Facades.IdentityServer4.csproj", "{398C2F37-EB14-45CE-B910-BBAEE165F64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Facades.IIdentityServer4", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IIdentityServer4\Capgemini.SimplifiedYouTube.Facades.IIdentityServer4.csproj", "{927AFC88-B4F4-4F19-8603-11AF06C80B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Facades.IIdentityServer4", "03 Facades\Capgemini.SimplifiedYouTube.Facades.IIdentityServer4\Capgemini.SimplifiedYouTube.Facades.IIdentityServer4.csproj", "{927AFC88-B4F4-4F19-8603-11AF06C80B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4", "04 gRPCServices\Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4\Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4.csproj", "{EFEA9D53-6890-46DD-84C3-29260CA0FD21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4", "04 gRPCServices\Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4\Capgemini.SimplifiedYouTube.gRPCService.IdentityServer4.csproj", "{EFEA9D53-6890-46DD-84C3-29260CA0FD21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.gRPCService.Videos", "04 gRPCServices\Capgemini.SimplifiedYouTube.gRPCService.Videos\Capgemini.SimplifiedYouTube.gRPCService.Videos.csproj", "{3166DA4A-A421-4DC6-BB12-38E5FF0995A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.gRPCService.Videos", "04 gRPCServices\Capgemini.SimplifiedYouTube.gRPCService.Videos\Capgemini.SimplifiedYouTube.gRPCService.Videos.csproj", "{3166DA4A-A421-4DC6-BB12-38E5FF0995A8}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Capgemini.SimplifiedYouTube.Databases.Videos", "09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\Capgemini.SimplifiedYouTube.Databases.Videos.sqlproj", "{81F385D1-DDA3-439E-9E6F-34F7C13B712C}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Capgemini.SimplifiedYouTube.Databases.IdentityServer4", "09 Databases\Capgemini.SimplifiedYouTube.Databases.IdentityServer4\Capgemini.SimplifiedYouTube.Databases.IdentityServer4.sqlproj", "{A60BAE7B-AD83-42B4-AF3F-E69473917663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Contexts.IdentityServer4", "08 Contexts\Capgemini.SimplifiedYouTube.Contexts.IdentityServer4\Capgemini.SimplifiedYouTube.Contexts.IdentityServer4.csproj", "{0EE77886-26E8-4803-A4F4-A9F8AE6612B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Contexts.IdentityServer4", "08 Contexts\Capgemini.SimplifiedYouTube.Contexts.IdentityServer4\Capgemini.SimplifiedYouTube.Contexts.IdentityServer4.csproj", "{0EE77886-26E8-4803-A4F4-A9F8AE6612B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Contexts.Videos", "08 Contexts\Capgemini.SimplifiedYouTube.Contexts.Videos\Capgemini.SimplifiedYouTube.Contexts.Videos.csproj", "{D37B18C3-93A6-43BC-9F3E-114311E48023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Contexts.Videos", "08 Contexts\Capgemini.SimplifiedYouTube.Contexts.Videos\Capgemini.SimplifiedYouTube.Contexts.Videos.csproj", "{D37B18C3-93A6-43BC-9F3E-114311E48023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Repositories.Videos", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.Videos\Capgemini.SimplifiedYouTube.Repositories.Videos.csproj", "{DB357D4B-5714-423D-BB7F-99BA6A32F63F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Repositories.Videos", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.Videos\Capgemini.SimplifiedYouTube.Repositories.Videos.csproj", "{DB357D4B-5714-423D-BB7F-99BA6A32F63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Repositories.IVideos", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.IVideos\Capgemini.SimplifiedYouTube.Repositories.IVideos.csproj", "{59AB8ADA-60C8-45A0-9E0B-367FBED171BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Repositories.IVideos", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.IVideos\Capgemini.SimplifiedYouTube.Repositories.IVideos.csproj", "{59AB8ADA-60C8-45A0-9E0B-367FBED171BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Repositories.IdentityServer4", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.IdentityServer4\Capgemini.SimplifiedYouTube.Repositories.IdentityServer4.csproj", "{1769DE31-8DB6-4C79-93E2-C4FBC5A9020D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Repositories.IdentityServer4", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.IdentityServer4\Capgemini.SimplifiedYouTube.Repositories.IdentityServer4.csproj", "{1769DE31-8DB6-4C79-93E2-C4FBC5A9020D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Repositories.IIdentityServer4", "07 Repositories\Capgemini.SimplifiedYouTube.Repositories.IIdentityServer4\Capgemini.SimplifiedYouTube.Repositories.IIdentityServer4.csproj", "{4B9DCAAA-E057-408A-9B28-056A443C04BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Services.IdentityServer4", "06 Services\Capgemini.SimplifiedYouTube.Services.IdentityServer4\Capgemini.SimplifiedYouTube.Services.IdentityServer4.csproj", "{761EB591-6B3A-4907-9A1C-EF5F6102B1D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Services.IdentityServer4", "06 Services\Capgemini.SimplifiedYouTube.Services.IdentityServer4\Capgemini.SimplifiedYouTube.Services.IdentityServer4.csproj", "{761EB591-6B3A-4907-9A1C-EF5F6102B1D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Services.IIdentityServer4", "06 Services\Capgemini.SimplifiedYouTube.Services.IIdentityServer4\Capgemini.SimplifiedYouTube.Services.IIdentityServer4.csproj", "{4BEA4B42-5653-4BA5-A329-16BA75BFEDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Services.IIdentityServer4", "06 Services\Capgemini.SimplifiedYouTube.Services.IIdentityServer4\Capgemini.SimplifiedYouTube.Services.IIdentityServer4.csproj", "{4BEA4B42-5653-4BA5-A329-16BA75BFEDE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Services.IVideos", "06 Services\Capgemini.SimplifiedYouTube.Services.IVideos\Capgemini.SimplifiedYouTube.Services.IVideos.csproj", "{11E51913-A400-401E-899A-282CC6C5629D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Services.IVideos", "06 Services\Capgemini.SimplifiedYouTube.Services.IVideos\Capgemini.SimplifiedYouTube.Services.IVideos.csproj", "{11E51913-A400-401E-899A-282CC6C5629D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Services.Videos", "06 Services\Capgemini.SimplifiedYouTube.Services.Videos\Capgemini.SimplifiedYouTube.Services.Videos.csproj", "{6CA7325D-BDE1-4549-A387-AB065C22D1D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Services.Videos", "06 Services\Capgemini.SimplifiedYouTube.Services.Videos\Capgemini.SimplifiedYouTube.Services.Videos.csproj", "{6CA7325D-BDE1-4549-A387-AB065C22D1D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Core.Application.Videos", "05 Core\Capgemini.SimplifiedYouTube.Core.Application.Videos\Capgemini.SimplifiedYouTube.Core.Application.Videos.csproj", "{9E8E484B-ED53-420C-8576-D2EBC9FF80AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Core.Application.Videos", "05 Core\Capgemini.SimplifiedYouTube.Core.Application.Videos\Capgemini.SimplifiedYouTube.Core.Application.Videos.csproj", "{9E8E484B-ED53-420C-8576-D2EBC9FF80AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4", "05 Core\Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4\Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4.csproj", "{0DB346E2-C4F9-49AD-A9F8-3AC140D3599B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4", "05 Core\Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4\Capgemini.SimplifiedYouTube.Core.Domain.IdentityServer4.csproj", "{0DB346E2-C4F9-49AD-A9F8-3AC140D3599B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Core.Domain.Videos", "05 Core\Capgemini.SimplifiedYouTube.Core.Domain.Videos\Capgemini.SimplifiedYouTube.Core.Domain.Videos.csproj", "{8E0E1778-039B-474A-A5B0-867B16FBB095}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capgemini.SimplifiedYouTube.Core.Application.IdentityServer4", "05 Core\Capgemini.SimplifiedYouTube.Core.Application.IdentityServer4\Capgemini.SimplifiedYouTube.Core.Application.IdentityServer4.csproj", "{87CF4D46-0DAB-488E-B56D-0F30A92CEF65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mappers", "Mappers", "{1B4A87F1-1688-416D-BD98-D44AA3489D9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{88F6275D-6887-463B-8CF5-8A42DB03CCD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,8 @@ Global
 		{0DB346E2-C4F9-49AD-A9F8-3AC140D3599B} = {A018B612-FAA4-4D86-9856-C5FB2D15B36D}
 		{8E0E1778-039B-474A-A5B0-867B16FBB095} = {A018B612-FAA4-4D86-9856-C5FB2D15B36D}
 		{87CF4D46-0DAB-488E-B56D-0F30A92CEF65} = {A018B612-FAA4-4D86-9856-C5FB2D15B36D}
+		{1B4A87F1-1688-416D-BD98-D44AA3489D9C} = {98B6EAE5-6954-4526-BEBB-FCEF47889035}
+		{88F6275D-6887-463B-8CF5-8A42DB03CCD2} = {98B6EAE5-6954-4526-BEBB-FCEF47889035}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA64C116-194D-4CBA-9D3E-375675F10E0D}

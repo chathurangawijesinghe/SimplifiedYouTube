@@ -1,0 +1,16 @@
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dacpac
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dll
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.pdb
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.sqlprojAssemblyReference.cache
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Model.xml
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\refactor.xml
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\postdeploy.sql
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\predeploy.sql
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dll
+C:\Users\c.wijesinghe\Documents\Developments\Projects\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.pdb
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dacpac
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dll
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\bin\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.pdb
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.sqlprojAssemblyReference.cache
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.dll
+C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\09 Databases\Capgemini.SimplifiedYouTube.Databases.Videos\obj\Debug\Capgemini.SimplifiedYouTube.Databases.Videos.pdb

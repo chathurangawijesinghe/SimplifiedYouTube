@@ -2,7 +2,7 @@
 
 namespace Capgemini.SimplifiedYouTube.Services.IVideos
 {
-    public class Class1
+    public class IVideoService
     {
     }
 }

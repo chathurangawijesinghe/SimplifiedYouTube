@@ -56,11 +56,11 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="Scripts" />
-    <Folder Include="Scripts\Tables" />
+    <Folder Include="Schema" />
+    <Folder Include="Schema\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Scripts\Tables\Videos.sql" />
+    <Build Include="Schema\Tables\Videos.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Capgemini.SimplifiedYouTube.Databases.Videos.refactorlog" />

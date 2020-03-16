@@ -21,6 +21,8 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos.Controllers
             _videosFacade = videosFacade;
         }
 
+        // GET: api/videos
+        [HttpGet]
         public List<Video> Index()
         {
             return _videosFacade.GetAll();

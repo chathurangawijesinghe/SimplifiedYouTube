@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\08 Contexts\Capgemini.SimplifiedYouTube.Contexts.Videos\Capgemini.SimplifiedYouTube.Contexts.Videos.csproj" />
+    <ProjectReference Include="..\..\10 Common\Kaddis.Framework.Utilities.Repository\Kaddis.Framework.Utilities.Repository.csproj" />
+    <ProjectReference Include="..\Capgemini.SimplifiedYouTube.Repositories.IVideos\Capgemini.SimplifiedYouTube.Repositories.IVideos.csproj" />
+  </ItemGroup>
+
 </Project>

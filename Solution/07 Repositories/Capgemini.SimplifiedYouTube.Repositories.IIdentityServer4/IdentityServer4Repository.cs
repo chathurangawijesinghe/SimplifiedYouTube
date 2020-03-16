@@ -2,7 +2,7 @@
 
 namespace Capgemini.SimplifiedYouTube.Repositories.IIdentityServer4
 {
-    public class Class1
+    public class IdentityServer4Repository
     {
     }
 }

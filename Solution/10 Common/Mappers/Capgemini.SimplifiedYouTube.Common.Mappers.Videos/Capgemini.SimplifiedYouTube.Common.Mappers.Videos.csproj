@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\05 Core\Capgemini.SimplifiedYouTube.Core.Application.Videos\Capgemini.SimplifiedYouTube.Core.Application.Videos.csproj" />
+    <ProjectReference Include="..\..\..\08 Contexts\Capgemini.SimplifiedYouTube.Contexts.Videos\Capgemini.SimplifiedYouTube.Contexts.Videos.csproj" />
+  </ItemGroup>
+
+</Project>

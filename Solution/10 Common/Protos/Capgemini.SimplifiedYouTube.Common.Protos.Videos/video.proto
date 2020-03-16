@@ -1,0 +1,28 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Capgemini.SimplifiedYouTube.Common.Protos.Videos";
+
+package video;
+
+// The greeting service definition.
+service Videos {
+  // Sends a greeting
+  rpc GetAll (GetAllRequest) returns (GetAllReply);
+}
+
+// The request message containing the user's name.
+message GetAllRequest {
+  string id = 1;
+}
+
+message Video {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+}
+
+// The response message containing the greetings.
+message GetAllReply {
+  repeated Video videos = 1;
+}
+

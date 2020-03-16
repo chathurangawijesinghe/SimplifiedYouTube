@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kaddis.Framework.Utilities.Mapper\Kaddis.Framework.Utilities.Mapper.csproj" />
     <ProjectReference Include="..\Kaddis.Framework.Utilities.Repository\Kaddis.Framework.Utilities.Repository.csproj" />
   </ItemGroup>
 

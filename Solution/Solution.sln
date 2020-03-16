@@ -77,13 +77,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mappers", "Mappers", "{1B4A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{88F6275D-6887-463B-8CF5-8A42DB03CCD2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaddis.Framework.Utilities.Mapper", "10 Common\Kaddis.Framework.Utilities.Mapper\Kaddis.Framework.Utilities.Mapper.csproj", "{925F47F1-98CD-42E1-93D1-7E4B2DD1251D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaddis.Framework.Utilities.Repository", "10 Common\Kaddis.Framework.Utilities.Repository\Kaddis.Framework.Utilities.Repository.csproj", "{04ABC49D-F06E-426F-B18F-61CEE366FBF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaddis.Framework.Utilities.Service", "10 Common\Kaddis.Framework.Utilities.Service\Kaddis.Framework.Utilities.Service.csproj", "{D66EDA0B-1C6A-4667-8506-46951DDEDE0F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaddis.Framework.Utilities.UnitOfWork", "10 Common\Kaddis.Framework.Utilities.UnitOfWork\Kaddis.Framework.Utilities.UnitOfWork.csproj", "{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{694B02B5-E9D4-4303-8F72-DF228F8C9914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Common.Protos.Videos", "10 Common\Protos\Capgemini.SimplifiedYouTube.Common.Protos.Videos\Capgemini.SimplifiedYouTube.Common.Protos.Videos.csproj", "{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capgemini.SimplifiedYouTube.Common.Mappers.Videos", "10 Common\Mappers\Capgemini.SimplifiedYouTube.Common.Mappers.Videos\Capgemini.SimplifiedYouTube.Common.Mappers.Videos.csproj", "{DCB481F6-86D9-489A-9F89-35DECAAE818A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,10 +197,6 @@ Global
 		{87CF4D46-0DAB-488E-B56D-0F30A92CEF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87CF4D46-0DAB-488E-B56D-0F30A92CEF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87CF4D46-0DAB-488E-B56D-0F30A92CEF65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{925F47F1-98CD-42E1-93D1-7E4B2DD1251D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{925F47F1-98CD-42E1-93D1-7E4B2DD1251D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{925F47F1-98CD-42E1-93D1-7E4B2DD1251D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{925F47F1-98CD-42E1-93D1-7E4B2DD1251D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04ABC49D-F06E-426F-B18F-61CEE366FBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{04ABC49D-F06E-426F-B18F-61CEE366FBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04ABC49D-F06E-426F-B18F-61CEE366FBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -207,10 +205,14 @@ Global
 		{D66EDA0B-1C6A-4667-8506-46951DDEDE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66EDA0B-1C6A-4667-8506-46951DDEDE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66EDA0B-1C6A-4667-8506-46951DDEDE0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB481F6-86D9-489A-9F89-35DECAAE818A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB481F6-86D9-489A-9F89-35DECAAE818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB481F6-86D9-489A-9F89-35DECAAE818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB481F6-86D9-489A-9F89-35DECAAE818A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,10 +245,11 @@ Global
 		{87CF4D46-0DAB-488E-B56D-0F30A92CEF65} = {A018B612-FAA4-4D86-9856-C5FB2D15B36D}
 		{1B4A87F1-1688-416D-BD98-D44AA3489D9C} = {98B6EAE5-6954-4526-BEBB-FCEF47889035}
 		{88F6275D-6887-463B-8CF5-8A42DB03CCD2} = {98B6EAE5-6954-4526-BEBB-FCEF47889035}
-		{925F47F1-98CD-42E1-93D1-7E4B2DD1251D} = {88F6275D-6887-463B-8CF5-8A42DB03CCD2}
 		{04ABC49D-F06E-426F-B18F-61CEE366FBF1} = {88F6275D-6887-463B-8CF5-8A42DB03CCD2}
 		{D66EDA0B-1C6A-4667-8506-46951DDEDE0F} = {88F6275D-6887-463B-8CF5-8A42DB03CCD2}
-		{D0C08BD6-A8FE-4FA4-869E-D0AEE10CEAC2} = {88F6275D-6887-463B-8CF5-8A42DB03CCD2}
+		{694B02B5-E9D4-4303-8F72-DF228F8C9914} = {98B6EAE5-6954-4526-BEBB-FCEF47889035}
+		{5501DF5E-6CCA-44E9-B0DF-A97798AADCB3} = {694B02B5-E9D4-4303-8F72-DF228F8C9914}
+		{DCB481F6-86D9-489A-9F89-35DECAAE818A} = {1B4A87F1-1688-416D-BD98-D44AA3489D9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA64C116-194D-4CBA-9D3E-375675F10E0D}

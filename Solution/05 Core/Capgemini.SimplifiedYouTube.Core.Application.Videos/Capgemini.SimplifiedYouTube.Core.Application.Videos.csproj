@@ -4,4 +4,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Videos\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\06 Services\Capgemini.SimplifiedYouTube.Services.IVideos\Capgemini.SimplifiedYouTube.Services.IVideos.csproj" />
+    <ProjectReference Include="..\Capgemini.SimplifiedYouTube.Core.Domain.Videos\Capgemini.SimplifiedYouTube.Core.Domain.Videos.csproj" />
+  </ItemGroup>
+
 </Project>

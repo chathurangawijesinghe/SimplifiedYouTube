@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Capgemini.SimplifiedYouTube.Core.Domain.Videos;
+using Kaddis.Framework.Utilities.Service;
+using System;
 
 namespace Capgemini.SimplifiedYouTube.Services.IVideos
 {
-    public class IVideoService
+    public interface IVideoService : IGenericService<Video>
     {
     }
 }

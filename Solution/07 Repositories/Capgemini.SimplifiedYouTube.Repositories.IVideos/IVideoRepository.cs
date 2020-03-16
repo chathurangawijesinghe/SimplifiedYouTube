@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Capgemini.SimplifiedYouTube.Contexts.Videos;
+using Kaddis.Framework.Utilities.Repository;
+using System;
 
 namespace Capgemini.SimplifiedYouTube.Repositories.IVideos
 {
-    public class IVideoRepository
+    public interface IVideoRepository : IGenericRepository<VideoEntity>
     {
     }
 }

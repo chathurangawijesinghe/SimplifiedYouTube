@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Kaddis.Framework.Utilities.Mapper;
 using Kaddis.Framework.Utilities.Repository;
 using System;
 using System.Collections.Generic;

@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\10 Common\Protos\Capgemini.SimplifiedYouTube.Common.Protos.Videos\Capgemini.SimplifiedYouTube.Common.Protos.Videos.csproj" />
+  </ItemGroup>
+
 </Project>

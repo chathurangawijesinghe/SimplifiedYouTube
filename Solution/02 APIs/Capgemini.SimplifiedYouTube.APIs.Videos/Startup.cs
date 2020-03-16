@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Capgemini.SimplifiedYouTube.Facades.IVideos;
+using Capgemini.SimplifiedYouTube.Facades.Videos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +28,8 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddTransient<IVideosFacade, VideosFacade>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

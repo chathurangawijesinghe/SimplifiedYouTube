@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Capgemini.SimplifiedYouTube.Common.Protos.Videos;
 using Capgemini.SimplifiedYouTube.Facades.IVideos;
 using Grpc.Net.Client;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Capgemini.SimplifiedYouTube.APIs.Videos.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("AllowOrigin")]
     [ApiController]
     public class VideosController : ControllerBase
     {

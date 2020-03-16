@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\03 Facades\Capgemini.SimplifiedYouTube.Facades.IVideos\Capgemini.SimplifiedYouTube.Facades.IVideos.csproj" />
     <ProjectReference Include="..\..\03 Facades\Capgemini.SimplifiedYouTube.Facades.Videos\Capgemini.SimplifiedYouTube.Facades.Videos.csproj" />
+    <ProjectReference Include="..\..\10 Common\Kaddis.Framework.Utilities.Entities\Kaddis.Framework.Utilities.Entities.csproj" />
     <ProjectReference Include="..\..\10 Common\Protos\Capgemini.SimplifiedYouTube.Common.Protos.Videos\Capgemini.SimplifiedYouTube.Common.Protos.Videos.csproj" />
   </ItemGroup>
 

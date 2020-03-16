@@ -40,11 +40,12 @@ namespace Capgemini.SimplifiedYouTube.gRPCService.Videos
             services.AddDbContext<VideoContext>
               (options => options.UseSqlServer(Configuration.GetConnectionString("VideoDatabaseConnection")));
 
+            //services.AddEntityFrameworkSqlite()
+            //            .AddDbContext<VideoContext>(opt =>
+            //            opt.UseSqlite("Data Source=test.db"));
+
             services.AddTransient<DbContext, VideoContext>();
             services.AddTransient<IVideoRepository, VideoRepository>();
-            //services.AddTransient<IUnitOfWork, UnitOfWork>();
-
-            //services.AddTransient<ITestMapper, TestMapper>();
 
             // Auto Mapper Configurations
             var mappingConfig = new MapperConfiguration(mc =>

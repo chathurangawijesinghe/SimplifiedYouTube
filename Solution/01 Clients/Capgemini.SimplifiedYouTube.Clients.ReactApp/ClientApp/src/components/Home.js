@@ -25,9 +25,9 @@ export class Home extends Component {
                 </ul>
                 <p>How to setup</p>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Publish Capgemini.SimplifiedYouTube.Databases.Videos Sql Server Database Project to a Empty database</li>
+                    <li>Change the "VideoDatabaseConnection" connection string accordingly</li>
+                    <li>Run Capgemini.SimplifiedYouTube.Clients.ReactApp, Capgemini.SimplifiedYouTube.APIs.Videos & Capgemini.SimplifiedYouTube.gRPCService.Videos projects</li>
                 </ul>
             </div>
         );

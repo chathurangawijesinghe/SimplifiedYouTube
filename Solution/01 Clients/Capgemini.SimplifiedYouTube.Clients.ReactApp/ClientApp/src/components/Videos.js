@@ -19,6 +19,9 @@ export class Videos extends Component {
             <div>
                 <Container>
                     <Row>
+                        <h2>Videos</h2>
+                    </Row>
+                    <Row>
                         <Col>
                             {this.state.videos.map((value, index) => {
                                 return <Video key={index} data={value} />
@@ -33,6 +36,6 @@ export class Videos extends Component {
     async getAllVideos() {
         const response = await fetch('http://localhost:9001/api/videos');
         const data = await response.json();
-        this.setState({ videos: data, loading: false });
+        this.setState({ videos: data.data, loading: false });
     }
 }

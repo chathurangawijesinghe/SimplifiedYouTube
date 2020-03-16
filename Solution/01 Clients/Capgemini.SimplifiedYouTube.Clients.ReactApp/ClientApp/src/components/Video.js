@@ -6,10 +6,11 @@ export class Video extends Component {
     render() {
         return (
             <div>
+                <hr />
                 <video width="320" height="240" controls>
                     <source src="sample1.mp4" type="video/mp4" />
                 </video>
-                <h1>{this.props.data.name}</h1>
+                <h6>{this.props.data.name}</h6>
 
                 <p>{this.props.data.description}</p>
             </div>

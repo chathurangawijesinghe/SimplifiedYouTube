@@ -18,25 +18,34 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MediatR;
 using Capgemini.SimplifiedYouTube.Common.Mappers.Videos;
+using Microsoft.Extensions.Configuration;
 
 namespace Capgemini.SimplifiedYouTube.gRPCService.Videos
 {
     public class Startup
     {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddGrpc();
 
-            var connection = @"Data Source=., 1433;Initial Catalog=Videos;User ID=sa;Password=Sql2020";
             services.AddDbContext<VideoContext>
-                (options => options.UseSqlServer(connection));
+              (options => options.UseSqlServer(Configuration.GetConnectionString("VideoDatabaseConnection")));
+
+            //services.AddEntityFrameworkSqlite()
+            //            .AddDbContext<VideoContext>(opt =>
+            //            opt.UseSqlite("Data Source=test.db"));
+
             services.AddTransient<DbContext, VideoContext>();
             services.AddTransient<IVideoRepository, VideoRepository>();
-            //services.AddTransient<IUnitOfWork, UnitOfWork>();
-
-            //services.AddTransient<ITestMapper, TestMapper>();
 
             // Auto Mapper Configurations
             var mappingConfig = new MapperConfiguration(mc =>

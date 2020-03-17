@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, CardDeck } from 'reactstrap';
 import { Video } from './Video';
 
 export class Videos extends Component {
@@ -21,13 +21,9 @@ export class Videos extends Component {
                     <Row>
                         <h2>Videos</h2>
                     </Row>
-                    <Row>
-                        <Col>
-                            {this.state.videos.map((value, index) => {
-                                return <Video key={index} data={value} />
-                            })}
-                        </Col>
-                    </Row>
+                    {this.state.videos.map((value, index) => {
+                        return <Video key={index} data={value} />
+                    })}
                 </Container>
             </div>
         );

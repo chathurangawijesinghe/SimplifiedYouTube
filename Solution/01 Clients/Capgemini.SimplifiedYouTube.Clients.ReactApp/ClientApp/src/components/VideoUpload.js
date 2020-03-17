@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Input, Button, Form, FormGroup } from 'reactstrap';
 
 export class VideoUpload extends Component {
     static displayName = VideoUpload.name;
@@ -44,39 +44,25 @@ export class VideoUpload extends Component {
     render() {
         return (
             <Container>
-                <Row>
-                    <h2>Video Upload</h2>
-                </Row>
-                <form onSubmit={this.onFormSubmit}>
-                    <Row>
-                        <Col lg={2}>
-                            <label>Video Name</label>
-                        </Col>
-                        <Col lg={4}>
-                            <input type="text" />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={2}>
+                <Col lg={6}>
+                    <h3>Video Upload</h3>
+                    <Form onSubmit={this.onFormSubmit}>
+                        <FormGroup>
+                                <label>Video Name</label>
+                            <Input type="text" />
+                        </FormGroup>
+                        <FormGroup>
                             <label>Video Description</label>
-                        </Col>
-                        <Col lg={4}>
-                            <input type="text" />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={6}>
-                            <input type="file" onChange={this.onChange} />
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={2}>
-                        </Col>
-                        <Col lg={4}>
-                            <button variant="primary" type="submit">Upload</button>
-                        </Col>
-                    </Row>
-                </form>
+                            <Input type="text" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Input type="file" onChange={this.onChange} />
+                        </FormGroup>
+                        <FormGroup>
+                            <Button color="primary" type="submit">Upload</Button>
+                        </FormGroup>
+                    </Form>
+                </Col>
             </Container>
         );
     }

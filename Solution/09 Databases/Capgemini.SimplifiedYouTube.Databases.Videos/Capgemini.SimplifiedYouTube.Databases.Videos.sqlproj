@@ -63,9 +63,6 @@
     <Build Include="Schema\Tables\Videos.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="Capgemini.SimplifiedYouTube.Databases.Videos.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>

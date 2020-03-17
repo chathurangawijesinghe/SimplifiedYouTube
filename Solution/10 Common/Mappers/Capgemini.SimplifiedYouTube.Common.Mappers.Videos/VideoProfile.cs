@@ -11,6 +11,7 @@ namespace Capgemini.SimplifiedYouTube.Common.Mappers.Videos
         public VideoProfile()
         {
             CreateMap<VideoEntity, Video>();
+            CreateMap<Video, VideoEntity>();
             CreateMap<Video, VideoDto>();
         }
     }

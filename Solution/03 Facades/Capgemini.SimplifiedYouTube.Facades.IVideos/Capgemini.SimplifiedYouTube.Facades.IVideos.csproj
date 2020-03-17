@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\05 Core\Capgemini.SimplifiedYouTube.Core.Domain.Videos\Capgemini.SimplifiedYouTube.Core.Domain.Videos.csproj" />
     <ProjectReference Include="..\..\10 Common\Protos\Capgemini.SimplifiedYouTube.Common.Protos.Videos\Capgemini.SimplifiedYouTube.Common.Protos.Videos.csproj" />
   </ItemGroup>
 

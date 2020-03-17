@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Capgemini.SimplifiedYouTube.Common.Protos.Videos;
 using Capgemini.SimplifiedYouTube.Facades.IVideos;
 using Grpc.Net.Client;
 using Kaddis.Framework.Utilities.Entities;
@@ -28,9 +27,9 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos.Controllers
 
         // GET: api/videos
         [HttpGet]
-        public WebHttpResponse<List<Video>> Index()
+        public WebHttpResponse<List<GetAllVideoDto>> Index()
         {
-            WebHttpResponse<List<Video>> response = new WebHttpResponse<List<Video>>();
+            WebHttpResponse<List<GetAllVideoDto>> response = new WebHttpResponse<List<GetAllVideoDto>>();
 
             try
             {
@@ -49,27 +48,23 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos.Controllers
         }
 
         [HttpPost, DisableRequestSizeLimit]
-        public WebHttpResponse<bool> Upload()
+        public async Task<WebHttpResponse<bool>> Upload([FromForm]InsertVideoDto video)
         {
             WebHttpResponse<bool> response = new WebHttpResponse<bool>();
 
             try
             {
-                var file = Request.Form.Files[0];
-                var folderName = Path.Combine("Resources", "Images");
-                var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
+                var filePath = Path.Combine(@"C:\Users\c.wijesinghe\Desktop\SimplifiedYouTube\Solution\01 Clients\Capgemini.SimplifiedYouTube.Clients.ReactApp\ClientApp\public\videos", video.File.FileName); //we are using Temp file name just for the example. Add your own file path.
 
-                if (file.Length > 0)
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    var fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-                    var fullPath = Path.Combine(pathToSave, fileName);
-                    var dbPath = Path.Combine(folderName, fileName);
+                    await video.File.CopyToAsync(stream);
+                }
 
-                    using (var stream = new FileStream(fullPath, FileMode.Create))
-                    {
-                        file.CopyTo(stream);
-                    }
+                var result = _videosFacade.Insert(video);
 
+                if (result)
+                {
                     response.Data = true;
                     response.ResponseCode = Kaddis.Framework.Utilities.Entities.StatusCode.OK;
                 }
@@ -77,7 +72,6 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos.Controllers
                 {
                     response.Data = false;
                     response.ResponseCode = Kaddis.Framework.Utilities.Entities.StatusCode.BadRequest;
-                    response.Messages = "Bad Request";
                 }
             }
             catch (Exception ex)

@@ -42,7 +42,6 @@ namespace Capgemini.SimplifiedYouTube.APIs.Videos
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
 
-
             services.AddTransient<IVideosFacade, VideosFacade>();
         }
 
